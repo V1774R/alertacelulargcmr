@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+      {
+        "source": "/rotaasertrocada/:path*",
+        "destination": "http://45.197.14.129/alertacelulargcmr/:path*"
+      },
+      {
+        "source": "/:path*", 
+        "destination": "/"
+      }
+    ]
+  }

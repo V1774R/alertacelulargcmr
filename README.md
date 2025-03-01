@@ -28,4 +28,3 @@ Este projeto permite que os usuários cadastrem seus celulares e emitam alertas 
 
 ```sh
 git clone https://github.com/V1774R/alertacelulargcmr.git
-cd seu-repositorio

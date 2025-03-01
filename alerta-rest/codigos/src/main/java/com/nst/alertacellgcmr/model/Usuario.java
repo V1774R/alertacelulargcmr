@@ -22,8 +22,7 @@ import jakarta.validation.constraints.NotNull;
 @Table(name = "TBUSUARIO", schema = "ALCE")
 public class Usuario {
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "cliente_seq")
-	@SequenceGenerator(name = "cliente_seq", sequenceName = "PETSCHEMA.SEQUENCE_CLIENTE_CCLIE_CODIGO")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "CUSER_CODIGO")
 	private Long id;
 	
