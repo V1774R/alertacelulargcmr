@@ -20,13 +20,12 @@ CREATE TABLE ALCE.TBUSUARIO(
     NUSER_ESTADO text not null,
     NUSER_ESCOLARIDADE text not null,
     TUSER_NASCIMENTO timestamp not null,
-    CUSER_IMEI1 text not null,
+    CUSER_IMEI1 unique text not null,
     CUSER_IMEI2 text not null,
     NUSER_MODELO text not null,
     TUSER_CRIACAO timestamp,
     TUSER_EXCLUSAO timestamp,
     TUSER_ULAT timestamp
-
 );
 
 /*CHAVES PRIMARIAS*/
